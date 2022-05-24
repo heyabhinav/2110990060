@@ -15,6 +15,8 @@ int main(){
 {
     case '+' : r = a + b;
                break;
+    default:  cout<<"Invalid Operator!!!"; 
+               break;
 }
 cout<<"Result: "<<r;
 return 0;
