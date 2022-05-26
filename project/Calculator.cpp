@@ -17,8 +17,11 @@ int main(){
                break;
     case '-' : r = a - b;
                break;
+    case '*' : r = a * b;
+               break;
     default: cout << "Invalid Operator!";
+
 }
     cout<<"Result: "<<r;
     return 0;
-} 
+}
